@@ -33,19 +33,19 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 
 Ejecutar los comandos:
 
-composer install
-composer update
-npm install && npm run dev
+    composer install
+    composer update
+    npm install && npm run dev
 
 Archivo de configuración:
 
-cp .env.example .env
-php artisan key:generate
+    cp .env.example .env
+    php artisan key:generate
 
 ## Creación de base de datos
 
 php artisan migrate --seed
 
-##Inicializar proyecto
+## Inicializar proyecto
 
 php artisan serve
